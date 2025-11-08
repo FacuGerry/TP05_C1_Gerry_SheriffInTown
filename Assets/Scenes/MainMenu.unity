@@ -4338,7 +4338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9012820240597688022, guid: 10e2479f89958bf45b7431ca325fbbd8, type: 3}
       propertyPath: m_text
-      value: AM I DOOMED???
+      value: SHERIFF IN TOWN
       objectReference: {fileID: 0}
     - target: {fileID: 9012820240597688022, guid: 10e2479f89958bf45b7431ca325fbbd8, type: 3}
       propertyPath: m_fontSize
