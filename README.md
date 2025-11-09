@@ -1,4 +1,4 @@
-# TP05_C1_Gerry_AmIDoomed?
+# TP05_C1_Gerry_Sheriff_in_town
 Link to itch: https://facugerry.itch.io/sheriff-in-town
 
 Sheriff in town is a 2D side-scroller in which you are a sheriff whose mission is to collect the most coins and kill all the enemies running around your city. Run, jump and shoot in order to get to the end of every level and win!
