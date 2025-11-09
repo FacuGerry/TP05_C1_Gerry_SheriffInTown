@@ -15,5 +15,5 @@ Author - Autor: Facundo Gerry
 
 Credits - Creditos:
 
-Brackeys Free 2D mega pack: https://assetstore.unity.com/packages/2d/free-2d-mega-pack-177430
-GWriter Studio 8Bit music: https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623
+* Brackeys - Free 2D mega pack: https://assetstore.unity.com/packages/2d/free-2d-mega-pack-177430
+* GWriter Studio - 8Bit music: https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623
