@@ -53,6 +53,8 @@ public class UiPlayerDie : MonoBehaviour
         Time.timeScale = 0;
         coinsNum.text = coinsData.coins.ToString("0");
         totalCoinsNum.text = coinsData.totalCoins.ToString("0");
+        coinsData.totalCoins -= coinsData.coins;
+        coinsData.coins = 0;
         coinsCounter.SetActive(false);
         loseScreen.SetActive(true);
     }

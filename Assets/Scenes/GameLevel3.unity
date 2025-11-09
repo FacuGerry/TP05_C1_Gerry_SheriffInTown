@@ -6904,7 +6904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3077467062761580692, guid: 13123ff6a0401c54580959d4d135af1d, type: 3}
       propertyPath: sceneToLoad
-      value: GameLevel3
+      value: GameLevel1
       objectReference: {fileID: 0}
     - target: {fileID: 3077467062761580692, guid: 13123ff6a0401c54580959d4d135af1d, type: 3}
       propertyPath: coinsCounter

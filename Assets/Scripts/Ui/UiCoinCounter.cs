@@ -10,7 +10,6 @@ public class UiCoinCounter : MonoBehaviour
     private void OnEnable()
     {
         PickablesController.onCoinsPicked += OnCoinsChanged_WriteCoins;
-        PlayerController.onPlayerDie += OnPlayerDie_RestartCoins;
     }
 
     private void Start()
@@ -23,7 +22,6 @@ public class UiCoinCounter : MonoBehaviour
     private void OnDisable()
     {
         PickablesController.onCoinsPicked -= OnCoinsChanged_WriteCoins;
-        PlayerController.onPlayerDie -= OnPlayerDie_RestartCoins;
     }
 
     public void OnCoinsChanged_WriteCoins(PickablesController pickablesController)
@@ -32,11 +30,5 @@ public class UiCoinCounter : MonoBehaviour
         coinsData.coins += coinPickedValue;
         coinsData.totalCoins += coinPickedValue;
         coinsText.text = coinsData.coins.ToString("0");
-    }
-
-    public void OnPlayerDie_RestartCoins(PlayerController playerController)
-    {
-        coinsData.totalCoins -= coinsData.coins;
-        coinsData.coins = 0;
     }
 }
